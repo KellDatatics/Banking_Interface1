@@ -38,16 +38,36 @@ The user's balance updates in real-time based on deposit and withdrawal actions.
 
 ```bash
 python passport_bros_bank.py
+```
 
-
-### 🔒 Notes
+## 🔒 Notes
 The account balance starts at $100,000
 Invalid inputs are handled with error messages and prompts to retry
 Password must be correct to access features
 
-#### 🧠 What You’ll Learn
+## Sample Outputs
+
+**Welcome Screen**
+
+![Welcome](images/welcome_screen.png)
+
+**Correct Input**
+
+![Correct](images/correct_input.png)
+
+**Incorrect Input Message**
+
+![Invalid Message](images/invalid_input.png)
+
+**Withdral and New Balance**
+
+![Withdrawl](images/withdrawl_new_balance.png)
+
+```
+### 🧠 What You’ll Learn
 This beginner project is great for practicing:
 Data structures (dictionaries)
 Loops (while)
 Function-based design
 Input validation and exception handling
+```
